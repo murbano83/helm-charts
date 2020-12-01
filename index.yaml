@@ -1,0 +1,66 @@
+apiVersion: v1
+entries:
+  base:
+  - apiVersion: v1
+    created: "2020-12-01T10:34:28.563872+01:00"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: cf0616c7e1e06304863db18b6f92eb01789e34572eb82259d64fcf9b2b13e344
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://murbano83.github.io/helm-charts/charts/base-1.1.0.tgz
+    version: 1.1.0
+  istio-discovery:
+  - apiVersion: v1
+    appVersion: 1.2.0
+    created: "2020-12-01T10:34:28.565835+01:00"
+    description: Helm chart for istio control plane
+    digest: c2f6d4417890f975a5343e0f961f2c100503ec79aeb7535913c56110cfd7f14f
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istio-discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://murbano83.github.io/helm-charts/charts/istio-discovery-1.2.0.tgz
+    version: 1.2.0
+  istio-egress:
+  - apiVersion: v1
+    created: "2020-12-01T10:34:28.567145+01:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 5d45bc0dfbd441af9721ed7824a06dabc2b5270cef8942937c8b96c858d5f560
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    name: istio-egress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://murbano83.github.io/helm-charts/charts/istio-egress-1.1.0.tgz
+    version: 1.1.0
+  istio-ingress:
+  - apiVersion: v1
+    created: "2020-12-01T10:34:28.568762+01:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 863536eb2f937327b61deb3bd37c2f8a9ef79d27386be6bc73e7d9a043539c94
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://murbano83.github.io/helm-charts/charts/istio-ingress-1.1.0.tgz
+    version: 1.1.0
+generated: "2020-12-01T10:34:28.558195+01:00"
